@@ -1,0 +1,159 @@
+/* :root {
+} */
+
+html  {  
+    font-family: "Raleway", sans-serif;
+  }
+html body script  {
+  display: none;
+} 
+body {
+  background-color: rgb(152, 133, 152);
+  margin: 0;
+}
+body, body *  {      
+  display: flex;
+  flex-direction: column;
+    
+  }  
+  body header  {
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    position: sticky;
+    top: 0;   
+    background-color: rgb(180, 197, 180);
+  }
+ 
+  .title {
+    font-size: 50px;
+  }
+
+  .navbar {    
+    margin: 0;
+    padding: 0;
+  }
+.navbar__container {
+ display: flex;
+ gap: 10px;
+
+}
+  .navbar ul {
+    font-size: 30px;
+    // display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+  }
+ 
+  .navbar__link {
+    text-decoration: none;
+    color:black;
+    gap: 10px;       
+  }
+
+  .about {   
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px; 
+          
+ &__picture {
+    width: 30%;
+    height: 500px;
+    background-color: rgb(102, 100, 100);
+    margin-bottom: 50px;
+  }
+  &__container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  &__competences {
+    align-items: center;
+  }
+  &__about_description {
+    color: rgb(95, 93, 93);
+    font-size: 25px;
+    flex-direction: column;
+  }
+  &__description span {
+    color: rgb(70, 130, 70);
+    font-size: 25px;
+  }}
+
+  h2 {
+    width: 100%;
+    font-size: 40px;
+    padding: 70px 0px 120px 0px;
+    align-items: center;
+  }
+
+  p { font-size: 25px;
+    
+  }  
+  .title_projects {
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .title_projects p {
+    justify-content: center;
+    align-items: center;
+  }
+  .cards {
+    height: 500px;
+    flex-direction: column;
+    gap: 20px;    
+  &__lines {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+  }
+  &__projects {
+    width: 25%;
+  }
+  &__individualy {
+    border-radius: 25px 25px 0px 0px;
+    height: 200px;
+    background-color: rgb(180, 197, 180);
+  }
+  &__descriptions {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(83, 112, 83);
+    margin: 0px;
+    border-radius: 0px 0px 25px 25px;
+  }}
+  .cards a {
+    font-size:85px ;
+    // flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+  .container_contact {
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .cta__contact {
+    flex-direction: row;  
+    gap: 50px;
+  }
+  .description__projects {
+    font-size: 25px;
+    align-items: center;
+  }
+  /* @media screen and (max-width: 760px) 
+  header { 
+      flex-direction: column;
+  
+  }
+  @media screen and (min-width: 761px) and (max-width: 1024px) {}
+  @media screen and (max-width: 1920px) {} */
