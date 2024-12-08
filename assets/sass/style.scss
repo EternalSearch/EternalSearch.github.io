@@ -231,12 +231,12 @@ p {
     flex-direction: row;
     justify-content: space-between;
     font-weight: 700;
+    gap: 20px;
   }
   &__cta {
     flex-direction: row;
-    gap: 20px;
     justify-content: space-between;
-    flex: 1;
+    text-align: center;
   }
 }
 
