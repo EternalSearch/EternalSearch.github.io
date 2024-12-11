@@ -21,6 +21,7 @@ header {
   width: 100%;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 .header {
@@ -297,7 +298,7 @@ p {
     min-height: 310px;
     width: 90%;
   }
-  .cards:hover {
+  .cards__projects:hover {
     transform: unset;
     box-shadow: unset;
   }
